@@ -1,0 +1,426 @@
+<!doctype html>
+<html lang="en">
+	<head>
+        <title>IPRS</title>
+
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+
+        <!-- Main CSS --> 
+        <link rel="stylesheet" href="css/style.css">
+
+        <!-- Font Awesome -->
+        <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+       <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+	   <style>
+
+.mySlides {display:none;}
+	.jm-item {
+	padding: 10px;
+	display: inline-block;
+	text-align: left;
+}
+.jm-item-wrapper {
+	position: relative;
+	padding: 7px;
+	background: #E8D7B6;
+}
+.jm-item-image {
+	position: relative;
+	overflow: hidden;
+}
+.jm-item-image img {
+	display: block;
+}
+.jm-item-title {
+    position: absolute;
+    left: -10px;
+    bottom: 17px;
+    background: #FF6B0E;
+    line-height: 1.5em;
+    font-weight: normal;
+    padding: 7px 9px 6px;
+    text-transform: uppercase;
+    font-family: 'Oswald', sans-serif;
+    color: #FFFFFF;
+    font-size: 1.4em;
+}
+.jm-item-overlay {
+	background: #000;
+	opacity: 0;
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	-webkit-transition: opacity 0.5s ease-in 0s;
+	-moz-transition: opacity 0.5s ease-in 0s;
+	-o-transition: opacity 0.5s ease-in 0s;
+	transition: opacity 0.5s ease-in 0s;
+}
+.jm-item-wrapper:hover .jm-item-overlay {
+	opacity: 0.3;
+}
+.jm-item-button {
+	height: 130px;
+	width: 130px;
+	text-align: center;
+	position: absolute;
+	left: 40%;
+	margin-left: -25px;
+}
+.jm-item-button a {
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    background: #FF6B0E;
+    text-transform: uppercase;
+    font-family: 'Oswald', sans-serif;
+    color: #FFFFFF;
+    font-size: 1.2em;
+    line-height: 50px;
+    -webkit-transition: all 0.2s ease-in 0s;
+    -moz-transition: all 0.2s ease-in 0s;
+    -o-transition: all 0.2s ease-in 0s;
+    transition: all 0.2s ease-in 0s;
+    text-decoration: none !important;
+    display: block;
+}
+.jm-item-button a:hover {
+	background: #3b3b3b;	
+}
+.second .jm-item-wrapper .jm-item-title {
+	-webkit-transition: all 0.2s ease-in 0s;
+	-moz-transition: all 0.2s ease-in 0s;
+	-o-transition: all 0.2s ease-in 0s;
+	transition: all 0.2s ease-in 0s;
+}
+.second .jm-item-wrapper:hover .jm-item-title {
+	left: -100%;
+}
+.second .jm-item-description {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	padding: 10px;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;	
+	background: rgba(0,0,0,0.4);
+	color: #fff;
+	top: 100%;
+	-webkit-transition: all 0.5s ease-in 0s;
+	-moz-transition: all 0.5s ease-in 0s;
+	-o-transition: all 0.5s ease-in 0s;
+	transition: all 0.5s ease-in 0s;
+}
+.second .jm-item-wrapper:hover .jm-item-description {
+	top: 0;
+}
+</style>
+    </head>
+  
+    <body>
+  
+        
+        <!-- Main navigation -->
+        <div id="sidebar">
+                      
+            <div class="navbar-expand-md navbar-dark"> 
+            
+                <header class="d-none d-md-block">
+                    <h1><span></span>IPRS</h1>
+                </header>
+                
+                
+                <!-- Mobile menu toggle and header -->
+                <div class="mobile-header-controls">
+                    <a class="navbar-brand d-md-none d-lg-none d-xl-none" href="#"><span></span>IPRS</a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#SidebarContent" aria-controls="SidebarContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                </div>
+         
+                <div id="SidebarContent" class="collapse flex-column navbar-collapse">
+ 
+                        
+                    
+                    <!-- Main navigation items -->
+                     <nav class="navbar navbar-dark">
+                        <div id="mainNavbar">
+                            <ul class="flex-column mr-auto">
+                                <li class="nav-item active">
+                                        <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                                </li>
+
+                                <li class="nav-item dropdown">
+                                            <a class="nav-link dropdown-toggle" href="#MenuDropdown1" data-toggle="collapse" aria-controls="MenuDropdown" aria-expanded="false">About Us</a>
+                                            <ul id="MenuDropdown1" class="sub-navbar collapse flex-column">
+                                                <li class="nav-item"><a class="nav-link" href="About_IPRS.html">About IPRS</a></li>
+                                                <li class="nav-item"><a class="nav-link" href="History.html">History</a></li>
+                                                <li class="nav-item"><a class="nav-link" href="Legality.html">Legality</a></li>
+                                                <li class="nav-item"><a class="nav-link"  href="IPRS_annual_report.html">IPRS Annual Report <br>2016-17</a></li>
+												    <li class="nav-item"><a class="nav-link" href="Association_As_2013.html">Association As<br> 17-04-2013</a></li>
+                                                <li class="nav-item"><a class="nav-link"  href="Association_As_2017.html">Association As <br>on 09-02-2017</a></li>
+                                                <li class="nav-item"><a class="nav-link"  href="Distribution_Scheme.html">Distribution Scheme</a></li>
+                                            </ul>
+                                </li>
+								    <li class="nav-item dropdown">
+                                            <a class="nav-link dropdown-toggle" href="#MenuDropdown2" data-toggle="collapse" aria-controls="MenuDropdown" aria-expanded="false">Directors</a>
+                                            <ul id="MenuDropdown2" class="sub-navbar collapse flex-column">
+                                                <li class="nav-item"><a class="nav-link" href="Current_Board_of_Director.html">Current Board of <br>Directors</a></li>
+                                                <li class="nav-item"><a class="nav-link" href="IPRS_Management.html">IPRS Management</a></li>
+                                                <li class="nav-item"><a class="nav-link" href="Directors_Through_the_year.html">Directors Through <br>The Year</a></li>
+                                                
+                                            </ul>
+                                </li>
+								    
+								     <li class="nav-item dropdown">
+                                            <a class="nav-link dropdown-toggle" href="#MenuDropdown4" data-toggle="collapse" aria-controls="MenuDropdown" aria-expanded="false">Tariffs</a>
+                                            <ul id="MenuDropdown4" class="sub-navbar collapse flex-column">
+                                                <li class="nav-item"><a class="nav-link" href="Tariffs_Payment.html">Tariffs Payments</a></li>
+                                                
+                                            </ul>
+                                </li>
+								    <li class="nav-item dropdown">
+                                            <a class="nav-link dropdown-toggle" href="#MenuDropdown5" data-toggle="collapse" aria-controls="MenuDropdown" aria-expanded="false">Downloads</a>
+                                            <ul id="MenuDropdown5" class="sub-navbar collapse flex-column">
+                                                <li class="nav-item"><a class="nav-link" href="Licensing_Form.html">Licensing Form</a></li>
+                                                <li class="nav-item"><a class="nav-link" href="Live_Performance.html">Live/Dj Performances</a></li>
+                                                <li class="nav-item"><a class="nav-link" href="General_Licensing.html">General licensing</a></li>
+                                                
+                                            </ul>
+                                </li>
+								     <li class="nav-item">
+                                        <a class="nav-link" href="Songs.html">Songs</a>
+                                </li>
+								    <li class="nav-item dropdown">
+                                            <a class="nav-link dropdown-toggle" href="#MenuDropdown6" data-toggle="collapse" aria-controls="MenuDropdown" aria-expanded="false">Reach Us</a>
+                                            <ul id="MenuDropdown6" class="sub-navbar collapse flex-column">
+                                                <li class="nav-item"><a class="nav-link" href="Contact_iprs.html">Contact IPRS</a></li>
+                                                <li class="nav-item"><a class="nav-link" href="Grievence_Form.html">Grievence Form</a></li>
+                                                <li class="nav-item"><a class="nav-link" href="Office_Location.html">Office Location</a></li>
+                                                <li class="nav-item"><a class="nav-link"  href="Represntative.html"> Representatives</a></li>
+                                                <li class="nav-item"><a class="nav-link"  href="FAQ's.html">FAQ'S</a></li>
+                                            </ul>
+                                </li>
+								    
+								    <li class="nav-item dropdown">
+                                            <a class="nav-link dropdown-toggle" href="#MenuDropdown7" data-toggle="collapse" aria-controls="MenuDropdown" aria-expanded="false">Useful Link</a>
+                                            <ul id="MenuDropdown7" class="sub-navbar collapse flex-column">
+                                                 <li class="nav-item"><a class="nav-link"   href="#">Handbook of <br>Copyright Law</a></li>
+                                                <li class="nav-item"><a class="nav-link" href="http://www.wipo.int/treaties/en/ip/wct/">WIPO Copyright <br>Treaty</a></li>
+                                                <li class="nav-item"><a class="nav-link" href="https://www.copyright.gov/wipo/treaty1.html">World Intellectual <br>Property Organization<br> Treaty </a></li>
+                                                <li class="nav-item"><a class="nav-link"  href="http://www.wipo.int/portal/en/index.html">WIPO Home</a></li>
+                                                <li class="nav-item"><a class="nav-link"  href="#"> Registration <br>Certificate</a></li>
+                                            </ul>
+                                </li>
+								   
+                            </ul>
+							 
+                        </div>   
+                    </nav>
+                
+                
+                
+                    <!-- Sidebar search form -->
+                   
+          
+                    <!-- Social icons -->
+                    <p class="sidebar-social-icons social-icons">
+                        <a href="#"><i class="fa fa-facebook fa-2x"></i></a>
+                        <a href="#"><i class="fa fa-twitter fa-2x"></i></a>
+                        <a href="#"><i class="fa fa-youtube fa-2x"></i></a>
+                        <a href="#"><i class="fa fa-instagram fa-2x"></i></a>
+                    </p>
+                
+                </div>
+            </div> 
+        </div>
+    
+        
+        <div id="content">
+            <div id="content-wrapper">
+
+                <!-- Jumbtron / Slider -->
+                
+
+<div class="w3-content w3-section" style="max-width:1000px">
+  
+</div>
+
+<script>
+var myIndex = 0;
+carousel();
+
+function carousel() {
+    var i;
+    var x = document.getElementsByClassName("mySlides");
+    for (i = 0; i < x.length; i++) {
+       x[i].style.display = "none";  
+    }
+    myIndex++;
+    if (myIndex > x.length) {myIndex = 1}    
+    x[myIndex-1].style.display = "block";  
+    setTimeout(carousel, 2000); // Change image every 2 seconds
+}
+</script>
+                <!-- Main content area -->        <main class="container-fluid">
+                                       <div class="row">
+
+                        <!-- Main content -->
+                              <div class="col-md-12">
+                                  <article>
+                                <center><h2 class="btn btn-primary" style="width:500px;font-size:20px">GUIDELINES FOR MEMBERSHIP FORM</h2></center>
+                <p style="color:black;text-align:justify;">
+
+ 
+
+1. The Application Form along with the Additional Information sheet duly filled & signed (IN CAPITAL LETTERS ONLY)
+
+<br>2. One Time Application Processing Fees of Rs 1,200/- for Author, Composer and Legal Heir and for Publisher Rs  2,200/- by Demand Draft in favour of ‘The Indian Performing Right Society Ltd.’ payable at Mumbai. 
+
+<br>KINDLY NOTE: Acceptable by Demand Draft (DD) or Pay Order (PO) ONLY
+<br>3. Xerox copy of PAN card (Mandatory) 
+
+<br>In case of Partnership/ Pvt. Ltd Company – PAN Copy of the Company is required
+<br>4. Xerox copy of AADHAR card (Mandatory for individuals)
+
+<br>For Permanent Address
+<br>5. Address Proof (if Communication Address is different from Permanent Address - any one)
+
+<br>Passport /Driving License / Voter ID / Leave License Copy  
+Notarize letter from original owner of property with his electricity bill attached as proof of tenancy (if staying as PAYING GUEST (P G) or Staying with Relative/Acquaintance)
+In Case of Company (Partnership/Pvt Ltd Company) copy of Leave License agreement / Electricity Bill / Telephone Bill in the name of the Company 
+ 
+
+<br>6. 2 Passport size color Photographs. (kindly stick one photo on the application form) 
+
+<br>7. Work Notification Forms for each Musical Work (minimum ONE released /published) :
+
+   <br>For Film  - CD Inlays or Digital Release (Page Print Screen) with all credits & links
+   <br>For Non Film Album- CD Inlays or Digital Release (Page Print Screen) with all credits & links
+   <br>For Back Ground Music [Film (including Animated Films)/TV Serial/Web Series] – Letter from Production    House/Channel or CD of Video Clip with Rolling Title of Name Credits and Cue Sheets
+   <br>For Advertising (Jingle / Logos / Channels ID / Theme Music for Events) – Letter from Advertising Agency/Advertiser/Production House certifying authorship and CD of Video Clip of Advertisement)
+(Note: In further process once the application is approved, additional documentary submission may be asked for as necessary)  
+
+<br>8. Xerox copy of your bank passbook/bank statement (latest) with Account name, address, Account No, etc. (for Bank Account Name Confirmation) duly verified & attested by Bank.
+
+<br>9. Any Applicant for Membership would need to provide an introduction from 2 existing Members of IPRS (not related to the applicant or to each other). The Applicant would need to provide a scan/photocopy of their Membership Card or PAN Card copy for identity verification of both recommending IPRS Members.   For Existing Members list refer http://www.iprs.org/cms/Membership/Members.aspx
+
+<br>For Owner Sole Proprietorship Firm (in addition to above 9):-
+
+<br>Letter from the bank certifying the bank account in the name of Firm with the detail as
+<br>Date of opening of account
+<br>Name of the proprietor
+<br>GST Registration No. (If applicable)
+<br>For Owner Publisher is a Limited Company (in addition to above 9):-
+
+<br>Copy of Memorandum and Articles of Association, Incorporation Certificate of the company.
+<br>Chairman or one of the Director/s or Authorized Person is the Signatories to the Application Form with the Company Rubber Stamp.
+<r>Extract Copy of Board Resolution (on the Company letter head Signed by all the Directors) specifying the name of the Director / Authorized Person who would sign the Application Form representing the Company in all matters at IPRS and sign the Assignment Deed on behalf of the Company with the Company Rubber Stamp.
+<br>GST Registration No. (Mandatory)
+<br>Last Audited Balance Sheet
+<br>For Owner Publisher is a Partnership (in addition to the above 9 Points):-
+
+<br>Copy of Partnership Deed.
+<br>Letter (on the letter head of company) signed by all the Partners specifying the name of the Partner/s or Authorized Person who would sign the Application Form representing the Firm in all matters at IPRS and sign the Assignment Deed on behalf of the Firm with the Company Rubber Stamp.
+<br>GST Registration No. (Mandatory) 
+<br>Last Audited Balance Sheet
+<br>In case of Legal Heirs (in addition to above 8):-
+
+<br>Copy of Death Certificate.
+<br>Copy of Probated Will or Succession Certificate or Legal Heir Certificate issued by competent Court.
+<br>Bank Verification of the Applicant (Legal Heir/s) Signature from the bank.
+ 
+
+<br>Additional Criteria’s (in addition to documents required mentioned above):
+
+<br>General (applicable to ALL)
+<br>Recommending member should be having membership of IPRS for at least 3 years
+<br>Recommending Member should not have any relation (personal) with the applicant (in case of Author Members) & should not be a Sister Concern (in case of Publisher Member)
+<br>Two Recommending Members shouldn’t be related to each other (for Author Members) or Sister Concern (for Publisher Members)
+ 
+
+<br>For FILM/TV Work:
+
+<br>If Author Applicant has released FILM Work/TV Serial/Advertising Jingles/Web Series, then such applicant will be required to submit the documents (work proof) along with duly filled & signed work notification form (please refer point no. 7 above)
+<br>If Publisher Applicant has FILM Work/TV Serial/Advertising Jingles/Web Series, then such applicant will be considered with one additional condition of Registered Company with PAN & GST Registration (if eligible) with Audited Balance Sheet to be provided.
+ 
+
+<br>For NON-FILM Work (applicable for both Author & Publisher applicant):
+
+<br>Internet Presence of the applicant need to be available
+<br>YouTube release of the Music 
+<br>Work released on SAAVAN/GAANA/HUNGAMA/ITunes/ Spotify or any other aggregator/streaming platform
+<br>Physical Release of CD Inlays
+ 
+
+<br>The applicant should fulfill at least 2 criteria’s of above. In case any applicant doesn’t fulfill any 2 criteria than the application can be considered for review & will be subject to Member’s Committee discretion exclusively (if find fit/ eligible/ prudent/ credible / genuineness of work created)
+
+ 
+
+<br>Note: 
+
+<br>Please be informed, once we receive all the documents related to membership as mentioned above (fulfilling additional criteria’s as may be laid down in timely manner by the Membership Committee). Membership Committee would scrutinized the application & give approval if find fit & legitimate. 
+<br>On approval of application, we will send the Assignment Deed (Franked) & Indemnity Bond (Franked) for execution (sign) to the Applicant. On receiving both the Executed (Signed) Legal Paper, Assignment Deed will be send for execution by the Directors.
+<br>A photocopy of Assignment Deed duly signed will be sent to the Applicant along with Member Admittance Letter for records. 
+ 
+
+ </p>	    
+                </article>
+				</div>
+				</div> 
+                </main>
+				
+				
+                 
+
+                <!-- Footer -->
+               <div class="container-fluid footer-container">
+                    <footer class="footer">
+                        <div class="footer-lists">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    
+					<h3>About IPRS</h3> 
+					<div class=" footerabt-w3text"> 
+				<p style="text-align:justify">A lot of people are not aware, or atleast not very clear about the functioning of The Indian Performing Right Society Limited (IPRS).They often ask, what is the business of IPRS Well, in short, the business of IPRS is to issue Licences to users of music and collect Royalties from them....<a href="about.html" target="_blank">Read more.</a> </p>	    
+						 
+					</div>
+					<div class="clearfix"> </div>
+				
+                                </div>
+                                   
+                                
+                                <div class="col-md-6">
+					<h3>Office Address</h3>
+		    <p style="text-align:justify">Registered and Corporate Office:<br> 208, Golden Chambers,
+New Andheri Link Road,
+Andheri (W),
+Mumbai 400 053.<br>
+
+Telephones : 26733748 / 26733749 / 26733750 / 26736616<br>
+Fax : 2673 66 58<br>
+Email: admin@iprsltd.com </p>
+
+				
+                                </div>
+                            </div>
+                        </div>
+
+                        
+                    </footer>
+                </div> 
+            </div>
+        </div>
+
+        <!-- Bootcamp JavaScript -->
+        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+    </body>
+</html>

@@ -1,0 +1,335 @@
+<!doctype html>
+<html lang="en">
+	<head>
+        <title>IPRS</title>
+
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+
+        <!-- Main CSS --> 
+        <link rel="stylesheet" href="css/style.css">
+
+        <!-- Font Awesome -->
+        <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+       <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+	   <style>
+
+.mySlides {display:none;}
+	.jm-item {
+	padding: 10px;
+	display: inline-block;
+	text-align: left;
+}
+.jm-item-wrapper {
+	position: relative;
+	padding: 7px;
+	background: #E8D7B6;
+}
+.jm-item-image {
+	position: relative;
+	overflow: hidden;
+}
+.jm-item-image img {
+	display: block;
+}
+.jm-item-title {
+    position: absolute;
+    left: -10px;
+    bottom: 17px;
+    background: #FF6B0E;
+    line-height: 1.5em;
+    font-weight: normal;
+    padding: 7px 9px 6px;
+    text-transform: uppercase;
+    font-family: 'Oswald', sans-serif;
+    color: #FFFFFF;
+    font-size: 1.4em;
+}
+.jm-item-overlay {
+	background: #000;
+	opacity: 0;
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	-webkit-transition: opacity 0.5s ease-in 0s;
+	-moz-transition: opacity 0.5s ease-in 0s;
+	-o-transition: opacity 0.5s ease-in 0s;
+	transition: opacity 0.5s ease-in 0s;
+}
+.jm-item-wrapper:hover .jm-item-overlay {
+	opacity: 0.3;
+}
+.jm-item-button {
+	height: 130px;
+	width: 130px;
+	text-align: center;
+	position: absolute;
+	left: 40%;
+	margin-left: -25px;
+}
+.jm-item-button a {
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    background: #FF6B0E;
+    text-transform: uppercase;
+    font-family: 'Oswald', sans-serif;
+    color: #FFFFFF;
+    font-size: 1.2em;
+    line-height: 50px;
+    -webkit-transition: all 0.2s ease-in 0s;
+    -moz-transition: all 0.2s ease-in 0s;
+    -o-transition: all 0.2s ease-in 0s;
+    transition: all 0.2s ease-in 0s;
+    text-decoration: none !important;
+    display: block;
+}
+.jm-item-button a:hover {
+	background: #3b3b3b;	
+}
+.second .jm-item-wrapper .jm-item-title {
+	-webkit-transition: all 0.2s ease-in 0s;
+	-moz-transition: all 0.2s ease-in 0s;
+	-o-transition: all 0.2s ease-in 0s;
+	transition: all 0.2s ease-in 0s;
+}
+.second .jm-item-wrapper:hover .jm-item-title {
+	left: -100%;
+}
+.second .jm-item-description {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	padding: 10px;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;	
+	background: rgba(0,0,0,0.4);
+	color: #fff;
+	top: 100%;
+	-webkit-transition: all 0.5s ease-in 0s;
+	-moz-transition: all 0.5s ease-in 0s;
+	-o-transition: all 0.5s ease-in 0s;
+	transition: all 0.5s ease-in 0s;
+}
+.second .jm-item-wrapper:hover .jm-item-description {
+	top: 0;
+}
+</style>
+    </head>
+  
+    <body>
+  
+        
+        <!-- Main navigation -->
+        <div id="sidebar">
+                      
+            <div class="navbar-expand-md navbar-dark"> 
+            
+                <header class="d-none d-md-block">
+                    <h1><span></span>IPRS</h1>
+                </header>
+                
+                
+                <!-- Mobile menu toggle and header -->
+                <div class="mobile-header-controls">
+                    <a class="navbar-brand d-md-none d-lg-none d-xl-none" href="#"><span></span>IPRS</a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#SidebarContent" aria-controls="SidebarContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                </div>
+         
+                <div id="SidebarContent" class="collapse flex-column navbar-collapse">
+ 
+                        
+                    
+                    <!-- Main navigation items -->
+                     <nav class="navbar navbar-dark">
+                        <div id="mainNavbar">
+                            <ul class="flex-column mr-auto">
+                                <li class="nav-item active">
+                                        <a class="nav-link"  href="index.html">Home <span class="sr-only">(current)</span></a>
+                                </li>
+
+                                <li class="nav-item dropdown">
+                                            <a class="nav-link dropdown-toggle" href="#MenuDropdown1" data-toggle="collapse" aria-controls="MenuDropdown" aria-expanded="false">About Us</a>
+                                            <ul id="MenuDropdown1" class="sub-navbar collapse flex-column">
+                                                <li class="nav-item"><a class="nav-link" href="About_IPRS.html">About IPRS</a></li>
+												      <li class="nav-item"><a class="nav-link" href="Current_Board_of_Director.html">Current Board of <br>Directors</a></li>
+                                                <li class="nav-item"><a class="nav-link" href="IPRS_Management.html">IPRS Management</a></li>
+                                                <li class="nav-item"><a class="nav-link" href="Directors_Through_the_year.html">Directors Through <br>The Year</a></li>
+                                                <li class="nav-item"><a class="nav-link" href="History.html">History</a></li>
+                                                <li class="nav-item"><a class="nav-link" href="Legality.html">Legality</a></li>
+                                                <li class="nav-item"><a class="nav-link"  href="http://iprs.org/pdf-files/IPRS%20Annual%20Report%202016-17.pdf" target="_blank">IPRS Annual Report <br>2016-17</a></li>
+												    <li class="nav-item"><a class="nav-link" href="Association_As_2013.html">Association As<br> 17-04-2013</a></li>
+                                                <li class="nav-item"><a class="nav-link"  href="http://iprs.org/pdf-files/Articles%20of%20Association09.02.2017.pdf" target="_blank">Association As <br>on 09-02-2017</a></li>
+                                                <li class="nav-item"><a class="nav-link"  href="Distribution_Scheme.html">Distribution Scheme</a></li>
+                                            </ul>
+                                </li>
+								   
+								   
+								   <li class="nav-item dropdown">
+                                            <a class="nav-link dropdown-toggle" href="#MenuDropdown4" data-toggle="collapse" aria-controls="MenuDropdown" aria-expanded="false">Tariffs</a>
+                                            <ul id="MenuDropdown4" class="sub-navbar collapse flex-column">
+												      <li class="nav-item"><a class="nav-link" href="http://114.143.234.186:43380/" target="_blank">Backgroud Music Payments</a></li>
+													  <li class="nav-item"><a class="nav-link" href="http://50.62.57.86:8888/api/liveMusic" target="_blank">LIVE / DJ (Recorded Music) Performances</a></li>
+													  <li class="nav-item"><a class="nav-link" href="http://114.143.234.186:43380/" target="_blank">Background Music</a></li>
+                                                
+                                                
+                                            </ul>
+                                </li>
+								    <li class="nav-item dropdown">
+                                            <a class="nav-link dropdown-toggle" href="#MenuDropdown5" data-toggle="collapse" aria-controls="MenuDropdown" aria-expanded="false">Downloads</a>
+                                            <ul id="MenuDropdown5" class="sub-navbar collapse flex-column">
+                                                <li class="nav-item"><a class="nav-link" href="http://www.iprs.org/Forms/Live%20Performance%20Form.pdf" target="_blank">Live/Dj Performances</a></li>
+                                                <li class="nav-item"><a class="nav-link" href="http://www.iprs.org/Forms/General%20Licencing%20Form.pdf" target="_blank">General licensing</a></li>
+                                                
+                                            </ul>
+                                </li>
+								     <li class="nav-item">
+                                        <a class="nav-link" href="Songs.html">Songs</a>
+                                </li>
+								     <li class="nav-item dropdown">
+                                            <a class="nav-link dropdown-toggle" href="#MenuDropdown6" data-toggle="collapse" aria-controls="MenuDropdown" aria-expanded="false">Reach Us</a>
+                                            <ul id="MenuDropdown6" class="sub-navbar collapse flex-column">
+                                                <li class="nav-item"><a class="nav-link" href="Contact_iprs.html">Contact IPRS</a></li>
+                                                <li class="nav-item"><a class="nav-link" href="http://www.iprs.org/cms/ReachUs/GrievenceForm.aspx" target="_blank">Grievence Form</a></li>
+                                                <li class="nav-item"><a class="nav-link" href="Office_Location.html">Office Location</a></li>
+                                                <li class="nav-item"><a class="nav-link"  href="http://www.iprs.org/cms/ReachUs/Representatives.aspx" target="_blank"> Representatives</a></li>
+                                                <li class="nav-item"><a class="nav-link"  href="http://www.iprs.org/cms/ReachUs/FAQs.aspx" target="_blank">FAQ'S</a></li>
+                                            </ul>
+                                </li>
+								    
+								    <li class="nav-item dropdown">
+                                            <a class="nav-link dropdown-toggle" href="#MenuDropdown7" data-toggle="collapse" aria-controls="MenuDropdown" aria-expanded="false">Useful Link</a>
+                                            <ul id="MenuDropdown7" class="sub-navbar collapse flex-column">
+                                                 <li class="nav-item"><a class="nav-link"   href="#">Handbook of <br>Copyright Law</a></li>
+                                                <li class="nav-item"><a class="nav-link" href="http://www.wipo.int/treaties/en/ip/wct/" target="_blank">WIPO Copyright <br>Treaty</a></li>
+                                                <li class="nav-item"><a class="nav-link" href="https://www.copyright.gov/wipo/treaty1.html" target="_blank">World Intellectual <br>Property Organization<br> Treaty </a></li>
+                                                <li class="nav-item"><a class="nav-link"  href="http://www.wipo.int/portal/en/index.html" target="_blank">WIPO Home</a></li>
+                                                <li class="nav-item"><a class="nav-link"  href="#"> Registration <br>Certificate</a></li>
+                                            </ul>
+                                </li>
+								   
+                            </ul>
+							 
+                        </div>   
+                    </nav>
+                
+                
+                
+                    <!-- Sidebar search form -->
+                   
+          
+                    <!-- Social icons -->
+                    <p class="sidebar-social-icons social-icons">
+                        <a href="#"><i class="fa fa-facebook fa-2x"></i></a>
+                        <a href="#"><i class="fa fa-twitter fa-2x"></i></a>
+                        <a href="#"><i class="fa fa-youtube fa-2x"></i></a>
+                        <a href="#"><i class="fa fa-instagram fa-2x"></i></a>
+                    </p>
+                
+                </div>
+            </div> 
+        </div>
+    
+        
+        <div id="content">
+            <div id="content-wrapper">
+
+                <!-- Jumbtron / Slider -->
+                
+
+<div class="w3-content w3-section" style="max-width:1000px">
+  
+</div>
+
+<script>
+var myIndex = 0;
+carousel();
+
+function carousel() {
+    var i;
+    var x = document.getElementsByClassName("mySlides");
+    for (i = 0; i < x.length; i++) {
+       x[i].style.display = "none";  
+    }
+    myIndex++;
+    if (myIndex > x.length) {myIndex = 1}    
+    x[myIndex-1].style.display = "block";  
+    setTimeout(carousel, 2000); // Change image every 2 seconds
+}
+</script>
+                <!-- Main content area -->        <main class="container-fluid">
+                                       <div class="row">
+
+                        <!-- Main content -->
+                              <div class="col-md-12">
+                                  <article>
+                                <center><h2 class="btn btn-primary" style="width:200px;font-size:20px;">IPRS Management</h2></center>
+                </article>
+				</div>
+				</div> 
+				<div class="row">
+				<div class="col-md-12" >
+								<center>
+				<img src="image/Rakesh-Nigam1.jpg">
+				<h6>Mr. Rakesh Nigam <br>Chief Executive Officer</h6>
+               </center>
+				</div>
+				</div>
+                </main>
+				 
+				
+                 
+
+                <!-- Footer -->
+                <div class="container-fluid footer-container">
+                    <footer class="footer">
+                        <div class="footer-lists">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    
+					<h3>About IPRS</h3> 
+					<div class=" footerabt-w3text"> 
+				<p style="text-align:justify">A lot of people are not aware, or atleast not very clear about the functioning of The Indian Performing Right Society Limited (IPRS).They often ask, what is the business of IPRS Well, in short, the business of IPRS is to issue Licences to users of music and collect Royalties from them....<a href="about.html" target="_blank">Read more.</a> </p>	    
+						 
+					</div>
+					<div class="clearfix"> </div>
+				
+                                </div>
+                                   
+                                
+                                <div class="col-md-6">
+					<h3>Office Address</h3>
+		    <p style="text-align:justify">Registered and Corporate Office:<br> 208, Golden Chambers,
+New Andheri Link Road,
+Andheri (W),
+Mumbai 400 053.<br>
+
+Telephones : 26733748 / 26733749 / 26733750 / 26736616<br>
+Fax : 2673 66 58<br>
+Email: admin@iprsltd.com </p>
+
+				
+                                </div>
+                            </div>
+                        </div>
+
+                        
+                    </footer>
+                </div>  
+            </div>
+        </div>
+
+        <!-- Bootcamp JavaScript -->
+        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+    </body>
+</html>
