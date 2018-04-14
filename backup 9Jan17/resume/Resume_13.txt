@@ -1,0 +1,13 @@
+1. Block access pattern, based on furthrer request prediction replecment policy (like CCcleaner)
+
+2.DataMining apporch for predication of rainfall.
+
+3.RFID security protocal based on cryptographic hash function.
+
+4.Spying and mitigation of spoofing attack at wsn.
+
+5.Hubness based clustering overhigh dimension data.
+
+6.lexical datatable discription.
+
+7.online advertisment

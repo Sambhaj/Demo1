@@ -1,0 +1,12 @@
+Date : 15-11-2016
+Sign In: 10:42 AM
+Sign Out: 05:35 PM
+
+10:42 Fill-up daily report form after check snehbandhan website work.
+11 Continue working on forms design after all forms design change create new project for dnyanarjan and add all forms one by one also give images for editing to amrita mam.
+12 Continue working on dnyanarjan website check all forms and make changes in few forms.
+1-2 Create seperate database for dhyanarjan after make changes in connection string for snehbandhan and dnyanarjan website to submit.
+2-3 Go for lunch break then after continue work to make dnyanarjan website work ready.
+3-4 Add amrita mam edited image and then make snehbandhan work for forms design.
+4-5 After completion check both projects working whether proper or not after go for tea break.
+5:35 Submit snehbandhan and dnyanarjan websites work to hardik sir for uploading.
