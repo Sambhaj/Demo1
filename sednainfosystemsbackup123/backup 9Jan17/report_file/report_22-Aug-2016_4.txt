@@ -1,0 +1,8 @@
+10.3 working on mbhta website, collect otp generation code, search code for php of otp genaration, mearge this given code with php code and test, some issues occured, try to resolve.
+11 working on pix website, apply css on new section of links, search icons and edit it, place icons on section, align it properly with css, set links and hover effects.
+12 working on mbhta, sort out otp generaetion code isuues and send to hardik sir, search wallpapers for pix website slider, edit wallpapers as per size and place on slider, align all images properly.
+1 apply css for slider effects, create new page about us, set sections on page, align all data properly, disccuss with new employee for pix website product description, working on mbhta website.
+2 take lunch, discuss with hardik sir for otp generation, give demo, try to sort out issues, search online for otp generation code.
+3 try various code and rnd, try to merge code with my php code, test code with sending msg on my mobile number, try to set otp number on text msg, apply rnd for that.
+4 its work but try to set text with otp number, apply rnd but all rnd failed, url does not supported for that, try various techniques, try with url extention code for white spaces.
+5 finaly code work, 15 min tea break, align text msg with otp number data properly and test code, its properly, send data to hardik sir, send pix template to hardik sir.

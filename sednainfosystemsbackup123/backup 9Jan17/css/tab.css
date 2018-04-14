@@ -1,0 +1,58 @@
+﻿body {
+}
+#Tabs ul {
+padding: 0px;
+margin: 0px;
+margin-left: 10px;
+list-style-type:none;
+}
+
+#Tabs ul li {
+display: inline-block;
+clear: none;
+float: left;
+height: 24px;
+}
+
+#Tabs ul li a {
+position: relative;
+margin-top: 5px;
+display: block;
+margin-left: 6px;
+line-height: 36px;
+font-size:18px;
+padding-left: 1px;
+text-align:center;
+z-index: 9999;
+border: 1px solid #ccc;
+border-bottom: 0px; background-color:#0080C0; background-image:url(../images/title.png);
+background-repeat:repeat-x;
+font-family:Arial;
+-moz-border-radius-topleft: 11px;
+border-top-left-radius: 11px;
+-moz-border-radius-topright: 11px;
+border-top-right-radius: 11px;
+width: 174px;
+color: #002D3E;
+text-decoration: none;
+}
+
+#Tabs ul li a:hover {  // a very simple effect when hovering the mouse on tab
+text-decoration: none;
+color:#00AEEF;
+}
+
+#Tabs #Content_Area { // this is the css class for the content displayed in each tab
+padding: 0 15px;
+clear:both;
+overflow:hidden;
+line-height:19px;
+position: relative;
+top: 17px;
+z-index: 5;
+height: 150px;
+border: 1px solid #ccc;
+border-radius:10px;
+}
+.tabtxt{margin-left:220px; position:absolute; top:10px; padding-right:15px; padding-left:10px;overflow:hidden;}
+p { padding-left: 15px; }

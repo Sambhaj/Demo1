@@ -1,0 +1,14 @@
+
+Date: 2-12-16
+Sign In: 10:06 AM
+Sign Out: 06:50 PM
+
+10 Fill-up daily report form after continue working to import records into database also discuss with hardik sir for project demo.
+11 Discuss with dinesh sir for product project updation and continue working to import records into MySQL database.
+12 Make changes in power consumption project to link pie chart form also found that reactive power value not display on pie chart so check code again.
+1-2 Continue check code to find reactive power value after give value dynamically to reactive power then it shows on pie chart after completion dinesh sir give product project.
+2-3 Go for lunch break then after start working on product project form designing.
+3-4 Continue working for form designing and importing power consumption project records into database.
+4-5 Discuss with hardik sir for working status then after continue working on product project form designing as per client requirnment.
+5-6 Go for tea break then add values in combobox as suggested by client also write code to hide and view fields as per user selection.
+6-7 Continue working on product project form designing after completion of form designing check form working.
