@@ -1,8 +1,0 @@
-11 working on mbhta website, check uploaded pages one by one, test pages with inputs, discuss with hardik sir, as per new inputs create new page for display stocks, design page as per members page.
-12 apply code for display stock details on page, add search list as per alphabatical search, apply code as per latter selection, and test working, apply validations on page.
-1 add admin login page link on all required pages, add upload stock button on stock page, adjust button properly, apply various css effects to stock page for proper design.
-2 take lunch, test working of all pages, take backup of website, and send updated page to hardik sir, make some changes in stock page and resend to hardik sir, check google map as per updation.
-3 work  online on website, create new menu for stock, add link of menu, waiting for upload pages, check google map again but its not update, sorting desktop data, remove unwanted data, clear system.
-4 check bhavi india website, check all pages and files, check backup files, no one input available, working on ecommerce website, try to understand currency on website, try to set new currency for default.
-5 issue in currency after refresh the page it set by default in dollar, try to set indian currency, test process of checkout and admin panel product handling, search new grocery related templates.
-6 but all templates are some cost, 15 min tea break, discuss with hardik sir, test uploaded page on mbhta website, some issue in stock page, make changes in code, and send to hardik sir for uploading.

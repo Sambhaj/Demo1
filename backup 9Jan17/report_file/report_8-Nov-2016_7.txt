@@ -1,8 +1,0 @@
-10 start work at 10:07am.fillup daily report n submit it.
-11 start work on gridview.edit the code to search the data by name. 
-12 edit the css code for datagridview.but changed done in css will not accpeted by code.so left it. and move to next task.
-1 edit the code to serch the data by date.n it done succussfully
-2lunch break.now edit the code to serch the the date between two date.
-3 error occur in code try top solve it.
-4 tea break.try to solve the error.
-5 change the design of form

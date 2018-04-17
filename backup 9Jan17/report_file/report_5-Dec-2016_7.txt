@@ -1,8 +1,0 @@
-11  start work at 10:55am .fillup the report n submit it. 
-12 give demo to harik sir.n email the the folder of a.pcargo clearship pvt.ltd.
-1 add  inquiry section on contact page, adjust that section properly start to design the form
-2lunch break.continue design the form, 
-3 search to how to  send the mail in php,get help online for such opertaion,
-4 tea break.n edit the code to send mail.
-5 try to  solve the error. connect with client of a.p.cargo clearship pvt.ltd. n take updation from him
-6 search for different website of client of a.p.cargo clearship pvt.ltd. n download their logo. 
