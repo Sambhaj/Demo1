@@ -1,0 +1,83 @@
+/* CSS Document */
+.style_sheet {
+	font-family: "Century Gothic";
+	font-size: 14pt;
+	color: #CC6633;
+}
+.sub_head {
+	font-family: "Century Gothic";
+	font-size: 16pt;
+	color: #996633;
+	background-color: #a9cf92;
+	font-weight: bold;
+}
+.textual {
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12pt;
+	color: #000000;
+	text-align: justify;
+}
+.bottom {
+	font-family: Georgia, Times New Roman, Times, serif;
+	font-size: 12pt;
+	color: #663300;
+	background-color:#61c8eb;
+	
+}
+.sub_head1{
+font-family: "Century Gothic";
+	font-size: 12pt;
+	color: #996633;
+	background-color: #a9cf92;
+	font-weight: bold;
+}
+.head_text {
+	font-family: "Courier New", Courier, mono;
+	font-size: 10pt;
+	text-decoration: underline;
+	font-weight: bold;
+	color: #FF9933;
+	background-color: #333333;
+	text-align: center;
+}
+.heading {
+	font-family: "Harlow Solid Italic";
+	font-size: 21pt;
+	color: #000066;
+	text-align: center;
+}
+.sub_heading {
+	font-family: "Baskerville Old Face";
+	font-size: 14pt;
+	background-color: #534BE7;
+	color: #CCCCCC;
+	}
+.Heading1{
+font:"Courier New", Courier, mono;
+font-size:24px;
+color:#000099;
+}
+.textual1 {
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12pt;
+	color:#003399;
+	text-align: justify;
+}
+.Marquee {
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10pt;
+	color:#00CCFF;
+	text-align: justify;
+}
+.name{
+font:"Courier New", Courier, mono;
+font-size:20px;
+color:#000099;
+}
+
+.Heading2{
+font:"Courier New", Courier, mono;
+font-size:20px;
+color:#000099;
+}
+
