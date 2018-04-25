@@ -1,0 +1,9 @@
+6Nov
+11:04 wait for key at home,start system,11:10 fill daily reports,11:40 open jalseva, see table from retrive data.
+12:00 retrive data on cmbname selected change.
+1:00 arrange data in gridview.
+2:00 lunch,multiply the remain & rate of can & show in grid as total amt.
+3:00 set ordinal of grid,issue in value retrive from grid. 
+4;00 process continue,4:30 call from sir send emailopen mail wait & check,ask pwd,open not found,so callback 2 times.
+5:00 tea break,download 3 img,see changes the menu a/c to img.
+6;00 process continue.upto ipd menu.

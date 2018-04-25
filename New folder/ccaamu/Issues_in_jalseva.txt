@@ -1,0 +1,43 @@
+Issues in Jalseva
+1)Function Order Dashboard
+i)Catering Order:- When name is selected it display all can but issue total with current bottle rate.
+ii)when click on search btn it will display all 
+
+2)Daily Order:-
+i) Customer registration is required for can type.
+ii)Daily Supply:- Employee name are disaply in combobox is required or not. 
+
+
+
+3)Master
+i)In stock damage can type required or not.
+ii)Stock purchase can type required or not.
+
+
+
+New Updation list On Reports.
+2)Daily Order Issues in reports:-
+i)
+
+
+***Daily Order 
+1)In Registration :-reg date not change.
+
+tomorrow retrive emp name,tab indexing,
+
+
+
+remain can function order table insert the can type.
+
+
+Regular customer Dashboard
+1)Daily dispatch details reports form not changed after change in origional.
+
+Function Order Dashboard:-
+function order is required for can type  for required can.
+
+3)Master Dashboard:-Sales summary:-1)Only function order display not daily order sales display,
+ It only display the can required & not can type,
+
+**Exe issue:-
+Regular Customer Dashboard:-1)Daily dispatch details reports & Master Dashboard :-stock damage it only show old forms & not updated show.

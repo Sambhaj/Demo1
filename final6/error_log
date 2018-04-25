@@ -1,0 +1,39 @@
+[08-Dec-2017 12:18:02 Asia/Kolkata] PHP Notice:  Undefined variable: email in /home/utsavjph/public_html/rudrathespa.com/contact.php on line 36
+[08-Dec-2017 12:18:02 Asia/Kolkata] PHP Notice:  Undefined variable: name in /home/utsavjph/public_html/rudrathespa.com/contact.php on line 42
+[08-Dec-2017 12:18:24 Asia/Kolkata] PHP Notice:  Undefined variable: email in /home/utsavjph/public_html/rudrathespa.com/contact.php on line 36
+[08-Dec-2017 12:18:24 Asia/Kolkata] PHP Notice:  Undefined variable: name in /home/utsavjph/public_html/rudrathespa.com/contact.php on line 42
+[08-Dec-2017 12:21:46 Asia/Kolkata] PHP Parse error:  syntax error, unexpected '    ' (T_STRING) in /home/utsavjph/public_html/rudrathespa.com/contact.php on line 4
+[08-Dec-2017 12:21:56 Asia/Kolkata] PHP Parse error:  syntax error, unexpected '    ' (T_STRING) in /home/utsavjph/public_html/rudrathespa.com/contact.php on line 4
+[08-Dec-2017 12:22:30 Asia/Kolkata] PHP Parse error:  syntax error, unexpected '    ' (T_STRING) in /home/utsavjph/public_html/rudrathespa.com/contact.php on line 4
+[08-Dec-2017 12:22:36 Asia/Kolkata] PHP Parse error:  syntax error, unexpected '    ' (T_STRING) in /home/utsavjph/public_html/rudrathespa.com/contact.php on line 4
+[08-Dec-2017 12:23:17 Asia/Kolkata] PHP Parse error:  syntax error, unexpected '    ' (T_STRING) in /home/utsavjph/public_html/rudrathespa.com/contact.php on line 4
+[08-Dec-2017 12:23:20 Asia/Kolkata] PHP Parse error:  syntax error, unexpected '    ' (T_STRING) in /home/utsavjph/public_html/rudrathespa.com/contact.php on line 4
+[08-Dec-2017 12:23:21 Asia/Kolkata] PHP Parse error:  syntax error, unexpected '    ' (T_STRING) in /home/utsavjph/public_html/rudrathespa.com/contact.php on line 4
+[08-Dec-2017 12:23:21 Asia/Kolkata] PHP Parse error:  syntax error, unexpected '    ' (T_STRING) in /home/utsavjph/public_html/rudrathespa.com/contact.php on line 4
+[08-Dec-2017 12:23:22 Asia/Kolkata] PHP Parse error:  syntax error, unexpected '    ' (T_STRING) in /home/utsavjph/public_html/rudrathespa.com/contact.php on line 4
+[08-Dec-2017 12:24:16 Asia/Kolkata] PHP Parse error:  syntax error, unexpected '    ' (T_STRING) in /home/utsavjph/public_html/rudrathespa.com/contact.php on line 4
+[08-Dec-2017 12:24:54 Asia/Kolkata] PHP Parse error:  syntax error, unexpected '    ' (T_STRING) in /home/utsavjph/public_html/rudrathespa.com/contact.php on line 4
+[08-Dec-2017 12:27:56 Asia/Kolkata] PHP Notice:  Undefined index: name in /home/utsavjph/public_html/rudrathespa.com/contact-us.php on line 2
+[08-Dec-2017 12:27:56 Asia/Kolkata] PHP Notice:  Undefined index: email in /home/utsavjph/public_html/rudrathespa.com/contact-us.php on line 3
+[08-Dec-2017 12:27:56 Asia/Kolkata] PHP Notice:  Undefined index: phone in /home/utsavjph/public_html/rudrathespa.com/contact-us.php on line 4
+[08-Dec-2017 12:27:56 Asia/Kolkata] PHP Notice:  Undefined index: message in /home/utsavjph/public_html/rudrathespa.com/contact-us.php on line 5
+[08-Dec-2017 12:27:56 Asia/Kolkata] PHP Notice:  Undefined index: email in /home/utsavjph/public_html/rudrathespa.com/contact-us.php on line 10
+[08-Dec-2017 12:31:25 Asia/Kolkata] PHP Parse error:  syntax error, unexpected '$ToEmail' (T_VARIABLE) in /home/utsavjph/public_html/rudrathespa.com/1.php on line 3
+[08-Dec-2017 12:31:28 Asia/Kolkata] PHP Parse error:  syntax error, unexpected '$ToEmail' (T_VARIABLE) in /home/utsavjph/public_html/rudrathespa.com/1.php on line 3
+[08-Dec-2017 12:32:11 Asia/Kolkata] PHP Parse error:  syntax error, unexpected '$ToEmail' (T_VARIABLE) in /home/utsavjph/public_html/rudrathespa.com/1.php on line 3
+[08-Dec-2017 12:32:13 Asia/Kolkata] PHP Parse error:  syntax error, unexpected '$ToEmail' (T_VARIABLE) in /home/utsavjph/public_html/rudrathespa.com/1.php on line 3
+[08-Dec-2017 12:32:14 Asia/Kolkata] PHP Parse error:  syntax error, unexpected '$ToEmail' (T_VARIABLE) in /home/utsavjph/public_html/rudrathespa.com/1.php on line 3
+[08-Dec-2017 12:32:14 Asia/Kolkata] PHP Parse error:  syntax error, unexpected '$ToEmail' (T_VARIABLE) in /home/utsavjph/public_html/rudrathespa.com/1.php on line 3
+[08-Dec-2017 12:32:14 Asia/Kolkata] PHP Parse error:  syntax error, unexpected '$ToEmail' (T_VARIABLE) in /home/utsavjph/public_html/rudrathespa.com/1.php on line 3
+[08-Dec-2017 12:32:15 Asia/Kolkata] PHP Parse error:  syntax error, unexpected '$ToEmail' (T_VARIABLE) in /home/utsavjph/public_html/rudrathespa.com/1.php on line 3
+[08-Dec-2017 12:32:15 Asia/Kolkata] PHP Parse error:  syntax error, unexpected '$ToEmail' (T_VARIABLE) in /home/utsavjph/public_html/rudrathespa.com/1.php on line 3
+[08-Dec-2017 12:32:15 Asia/Kolkata] PHP Parse error:  syntax error, unexpected '$ToEmail' (T_VARIABLE) in /home/utsavjph/public_html/rudrathespa.com/1.php on line 3
+[08-Dec-2017 12:33:19 Asia/Kolkata] PHP Parse error:  syntax error, unexpected '$ToEmail' (T_VARIABLE) in /home/utsavjph/public_html/rudrathespa.com/1.php on line 3
+[08-Dec-2017 12:35:51 Asia/Kolkata] PHP Parse error:  syntax error, unexpected '$ToEmail' (T_VARIABLE) in /home/utsavjph/public_html/rudrathespa.com/1.php on line 3
+[08-Dec-2017 12:35:57 Asia/Kolkata] PHP Parse error:  syntax error, unexpected '$ToEmail' (T_VARIABLE) in /home/utsavjph/public_html/rudrathespa.com/1.php on line 3
+[08-Dec-2017 12:35:58 Asia/Kolkata] PHP Parse error:  syntax error, unexpected '$ToEmail' (T_VARIABLE) in /home/utsavjph/public_html/rudrathespa.com/1.php on line 3
+[08-Dec-2017 12:35:58 Asia/Kolkata] PHP Parse error:  syntax error, unexpected '$ToEmail' (T_VARIABLE) in /home/utsavjph/public_html/rudrathespa.com/1.php on line 3
+[08-Dec-2017 12:35:58 Asia/Kolkata] PHP Parse error:  syntax error, unexpected '$ToEmail' (T_VARIABLE) in /home/utsavjph/public_html/rudrathespa.com/1.php on line 3
+[08-Dec-2017 12:35:59 Asia/Kolkata] PHP Parse error:  syntax error, unexpected '$ToEmail' (T_VARIABLE) in /home/utsavjph/public_html/rudrathespa.com/1.php on line 3
+[08-Dec-2017 12:35:59 Asia/Kolkata] PHP Parse error:  syntax error, unexpected '$ToEmail' (T_VARIABLE) in /home/utsavjph/public_html/rudrathespa.com/1.php on line 3
+[08-Dec-2017 12:35:59 Asia/Kolkata] PHP Parse error:  syntax error, unexpected '$ToEmail' (T_VARIABLE) in /home/utsavjph/public_html/rudrathespa.com/1.php on line 3

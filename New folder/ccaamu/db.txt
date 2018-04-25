@@ -1,0 +1,55 @@
+-- phpMyAdmin SQL Dump
+-- version 2.11.11.3
+-- http://www.phpmyadmin.net
+--
+-- Host: 166.62.8.41
+-- Generation Time: Aug 25, 2017 at 02:27 AM
+-- Server version: 5.5.43
+-- PHP Version: 5.1.6
+
+SET SQL_MODE="NO_AUTO_VALUE_ON_ZERO";
+
+--
+-- Database: `prpgei`
+--
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `ccaamu_register`
+--
+
+CREATE TABLE `ccaamu_register` (
+  `form` int(10) DEFAULT NULL,
+  `member` int(10) DEFAULT NULL,
+  `name` varchar(50) DEFAULT NULL,
+  `address` varchar(50) DEFAULT NULL,
+  `tel_std` int(20) NOT NULL,
+  `fax` int(20) NOT NULL,
+  `email` varchar(20) NOT NULL,
+  `mobile_no` int(12) NOT NULL,
+  `whatsapp_no` int(12) NOT NULL,
+  `office_address` varchar(50) NOT NULL,
+  `otel_std` int(20) NOT NULL,
+  `ofax` int(20) NOT NULL,
+  `oemail` varchar(20) NOT NULL,
+  `omobile_no` int(12) NOT NULL,
+  `dob` date NOT NULL,
+  `marital_status` varchar(20) NOT NULL,
+  `date_anni` date NOT NULL,
+  `blood_gr` varchar(10) NOT NULL,
+  `education` varchar(20) NOT NULL,
+  `enroll_date` varchar(20) NOT NULL,
+  `asso_enroll` varchar(20) NOT NULL,
+  `pop` varchar(50) NOT NULL,
+  `welfare_fund` varchar(50) NOT NULL,
+  `org` varchar(50) NOT NULL,
+  `photo` varchar(50) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+--
+-- Dumping data for table `ccaamu_register`
+--
+
+INSERT INTO `ccaamu_register` VALUES(0, 0, 'asd', 'asd', 2147483647, 2147483647, 'asksedna@gmail.com', 2147483647, 2147483647, 'Amravati', 2147483647, 2147483647, 'hetalhn@gmail.com', 1231231231, '0012-12-12', 'Married', '0012-12-12', 'a', 'a', 'asd', 'asd', 'asd', 'asd', 'ads', 'doc/Untitled.png');
+INSERT INTO `ccaamu_register` VALUES(0, 0, 'asd', 'asd', 2147483647, 2147483647, 'asksedna@gmail.com', 2147483647, 2147483647, 'Amravati', 2147483647, 2147483647, 'hetalhn@gmail.com', 1231231231, '0012-12-12', 'Married', '0012-12-12', 'a', 'a', 'asd', 'asd', 'asd', 'asd', 'ads', 'doc/Untitled.png');

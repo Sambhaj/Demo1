@@ -1,0 +1,18 @@
+Hardik 	Website 	Remove No: 9890750803, asksedna@gmail.com
+17-01-2018 	Hardik 	Website 	Use justdial icon. Display on all pages 
+17-01-2018 	Hardik 	Website 	Display only 5 fb faces 
+17-01-2018 	Hardik 	Website 	Remove Link from Connected with F Change Text as Affiliations
+17-01-2018 	Hardik 	Website 	Add KCBF Icon
+17-01-2018 	Hardik 	Website 	Increase one page clientele.php and put matter from team.php of clientele to clientele page. The link should be after Team Page
+17-01-2018 	Hardik 	Website 	Change Google + link
+17-01-2018 	Hardik 		Add Code: <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-60329720-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-60329720-1');
+</script>
+17-01-2018 	Hardik 	clientele 	Correct bmhypindia logo
+17-01-2018 	Hardik 	clientele 	remove mouse hover event from logos

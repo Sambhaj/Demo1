@@ -1,0 +1,371 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,600,300);
+@charset "UTF-8";
+
+
+ 
+p, li, address, dd, blockquote, td, th, a,
+body, h1, h2, h3, h4, h5, h6, p, dl, ul, ol,
+.paragraph-links a, #respond input, #respond textarea, #respond p label, #search_mini {
+    color: #666767;
+    font-family: 'Open Sans', 'Verdana', 'Arial', sans-serif;
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 20px;
+}
+
+#navbar ul li
+{
+	float:right;
+}
+#header 
+{		
+	
+	background:#F4F4F4;
+	width:100%;
+	height:85px;
+}
+#slider 
+{		
+	
+	background:#FFFFFF;
+	 
+	 
+}
+#meta
+{
+	background:#FFFFFF;
+	text-align:center;
+	
+}
+#meta h1{
+	font-weight:bold;
+	color:#000000;
+	font-size:22px;
+	line-height:0px;
+}
+#meta h3{
+	font-weight:bold;
+	color:#DF1018;
+	font-size:15px;
+	line-height:14px;
+}
+#meta p{
+	font-weight:bold;
+	color:#DF1018;
+	border:3px solid #DF1018;
+	width:5%;
+	text-align:center;
+	
+}
+
+#maincont
+
+{
+	background:red;
+}
+#feature1
+{
+	background:#DF1018;
+	padding:10px;
+	 
+}
+#feature
+{
+	background:#DF1018;
+	padding:10px;
+	text-align:center;
+}
+#featuremeta h1
+{
+	font-size:20px;
+	color:#FFFFFF;
+	text-align:center;
+	font-weight:bold;
+}
+#featuremeta p{
+	font-weight:bold;
+	color:#F0878B;
+	border:3px solid #F0878B;
+	width:5%;
+	text-align:center;
+	
+}
+#copyright
+{
+	text-align:center;
+	padding:10px;
+	background:#F1F1F1;
+	font-size:12px;
+	 
+}
+#copyright a
+{
+	text-decoration:none;
+	color:#DF1018;
+	font-size:13px;
+}
+#copyright a:hover
+{
+	text-decoration:none;
+	color:#F0878B;
+}
+
+nav.navbar-findcond { background: #fff; border-color: #ccc; box-shadow: 0 0 2px 0 #ccc;}
+nav.navbar-findcond a { color: #f14444; }
+nav.navbar-findcond ul.navbar-nav a { color: #FFFFFF;  border-radius:4px; border:2px solid #FFFFFF; margin:5px; padding:8px; font-weight:bold; }
+ 
+nav.navbar-findcond ul.navbar-nav a:active {  border-radius:4px; border:2px solid #FFFFFF; color:#DF1018; margin:5px; padding:8px; background:#FFFFFF;}
+nav.navbar-findcond ul.navbar-nav a:hover { border-color: #f14444; border:2px solid #FFFFFF; color:#DF1018; border-radius:4px;  background:#FFFFFF;}
+nav.navbar-findcond li.divider { background: #ccc; }
+nav.navbar-findcond button.navbar-toggle { background: #f14444; border-radius: 2px; }
+nav.navbar-findcond button.navbar-toggle:hover { background: #999; }
+nav.navbar-findcond button.navbar-toggle > span.icon-bar { background: #fff; }
+nav.navbar-findcond ul.dropdown-menu { border: 0; background: #fff; border-radius: 4px; margin: 4px 0; box-shadow: 0 0 4px 0 #ccc; }
+nav.navbar-findcond ul.dropdown-menu > li > a { color: #444; }
+nav.navbar-findcond ul.dropdown-menu > li > a:hover { background: #f14444; color: #fff; }
+nav.navbar-findcond span.badge { background: #f14444; font-weight: normal; font-size: 11px; margin: 0 4px; }
+nav.navbar-findcond span.badge.new { background: rgba(255, 0, 0, 0.8); color: #fff; }
+nav.navbar-findcond a.navbar-brand{ padding:50px;}
+
+
+#home table td 
+{
+	font-weight:bold;
+	padding:5px;
+	color:#000000;
+	font-size:12px;
+}
+#home Input[type="text"]
+{
+	border:1px solid #DF1018;
+	padding-left:5px;
+}
+.txtarea
+{
+	border:1px solid #DF1018;
+	padding-left:5px;
+}
+#booking Input[type="text"]
+{
+	border:1px solid #DF1018;
+	padding:10px;
+	width:100%;
+	color:#000000;
+	font-weight:bold;
+	
+}
+.carousel-caption h1{
+	font-size:2.4em;
+	 text-shadow: none;
+	margin-top:0px;
+	color:#FFFFFF;
+	font-weight:bold;
+	
+} 
+#contactbanner
+{
+	padding:10px;
+	text-align:center;
+}
+
+#side1
+{
+	text-align:center;
+		line-height:0px;
+}
+#side1 h3
+{
+	text-align:center;
+	font-size:18px;
+	font-weight:bold;
+}
+
+.utt2{
+	border: none;
+	background: #46E14D;
+	color: #FFFFFF;
+	padding: 5px;
+	font-size:15px;
+	 
+	width:100%;
+	cursor: pointer;
+	font-family: 'Open Sans', sans-serif;
+	height:40px;
+	position: relative;
+	box-sizing: border-box;
+	transition: all 500ms ease; 
+}
+.utt2:hover {
+		background: #8BEC90;
+	color: #FFFFFF;
+	box-shadow: inset 0 0 0 3px #8BEC90;
+}
+#pricetable table
+{
+	 
+	 
+	width:100%;
+}
+#pricetable table td
+{
+	padding:10px;
+	 font-weight:bold;
+	color:#000000;
+}
+.tbcolor
+{
+	background:#E8E8E8;
+	 
+}
+.tbcolor1
+{
+	background:#CECECE;
+	width:20%;
+}
+.whitetb
+{
+	background:#FFFFFF;
+ 
+} 
+.circle {
+  display: block;
+  width: 100px;
+   cursor: pointer;
+ 
+  height: 30px;
+  text-align:center;
+  color:#DF1018;
+    
+   
+  background-repeat: no-repeat;
+   background:#FFFFFF;
+  
+  border-radius: 5px;
+  border:.1px dashed #000000;
+  box-shadow: 0px 2px 3px 1px rgba(0, 0, 0, 0.2);  
+}
+.circle:hover{
+	background:#DF1018;
+	color:#FFFFFF;
+	border:.1px dashed #FFFFFF;
+}
+#bookingtable table
+{
+	 
+	 border-radius:10px;
+	 
+	 background:#E8E8E8;
+}
+#bookingtable table td
+{
+	padding:10px;
+	
+	
+}
+.utt3{
+	border: none;
+	background: #DF1018;
+	color: #FFFFFF;
+	padding: 10px;
+	font-size:13px;
+	 
+	width:100%;
+	cursor: pointer;
+	font-family: 'Open Sans', sans-serif;
+	height:42px;
+	position: relative;
+	box-sizing: border-box;
+	transition: all 500ms ease; 
+}
+.utt3:hover {
+	background: #F0878B;
+	color: #000000;
+	box-shadow: inset 0 0 0 3px #F0878B;
+}
+.utt4{
+	border: none;
+	background: #DF1018;
+	color: #FFFFFF;
+	padding: 2px;
+	font-size:13px;
+	 
+	width:80px;
+	cursor: pointer;
+	font-family: 'Open Sans', sans-serif;
+	height:25px;
+	position: relative;
+	box-sizing: border-box;
+	transition: all 500ms ease; 
+}
+.utt4:hover {
+	background: #F0878B;
+	color: #FFFFFF;
+	box-shadow: inset 0 0 0 3px #F0878B;
+}
+.utt5{
+	border: none;
+	background: #46E14D;
+	color: #FFFFFF;
+	padding: 6px;
+	font-size:14px;
+	 border-radius:5px;
+	width:195px;
+	cursor: pointer;
+	font-family: 'Open Sans', sans-serif;
+	height:35px;
+	position: relative;
+	box-sizing: border-box;
+	transition: all 500ms ease; 
+}
+.utt5:hover {
+	background: #8BEC90;
+	color: #FFFFFF;
+	box-shadow: inset 0 0 0 3px #8BEC90;
+}
+.utt6{
+	border: none;
+	background: #262626;
+	color: #FFFFFF;
+	padding: 2px;
+	font-size:13px;
+	 
+	width:85px;
+	cursor: pointer;
+	font-family: 'Open Sans', sans-serif;
+	height:25px;
+	position: relative;
+	box-sizing: border-box;
+	transition: all 500ms ease; 
+}
+.utt6:hover {
+	background: #595959;
+	color: #FFFFFF;
+	box-shadow: inset 0 0 0 3px #595959;
+}
+.smalldiv{
+	width:180px;
+	height:150px;
+	float:left;
+	padding-right:5px;
+}
+
+.utt7{
+	border: none;
+	background: #262626;
+	color: #FFFFFF;
+	padding: 2px;
+	font-size:13px;
+	 
+	width:85px;
+	cursor: pointer;
+	font-family: 'Open Sans', sans-serif;
+	height:30px;
+	position: relative;
+	box-sizing: border-box;
+	transition: all 500ms ease; 
+}
+.utt7:hover {
+	background: #595959;
+	color: #FFFFFF;
+	box-shadow: inset 0 0 0 3px #595959;
+}

@@ -1,0 +1,1 @@
+http://192.168.1.12/magento/index.php/admin/admin/dashboard/index/key/a0d2a6e1bb500d84747a5c066104f89edcde46c9553e3e3ae4a6294c86c85a9d/

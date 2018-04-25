@@ -1,0 +1,484 @@
+<?php 
+
+$media_url      = Mage::getBaseUrl(Mage_Core_Model_Store::URL_TYPE_MEDIA);
+$upload_url     = Mage::getBaseUrl(Mage_Core_Model_Store::URL_TYPE_MEDIA)."uploads/home/";
+
+// Blocks Data
+$block1         = Mage::getStoreConfig('customconfig_options/section_two/block1');
+$block1_link    = Mage::getStoreConfig('customconfig_options/section_two/block1_link');
+
+$block2_heading = Mage::getStoreConfig('customconfig_options/section_two/block2_heading');
+$block2_link    = Mage::getStoreConfig('customconfig_options/section_two/block2_link');
+$block2_content = Mage::getStoreConfig('customconfig_options/section_two/block2_content');
+$block2_image   = Mage::getStoreConfig('customconfig_options/section_two/block2_image');
+
+
+$block3_image   = Mage::getStoreConfig('customconfig_options/section_two/block3_image');
+$block3_link    = Mage::getStoreConfig('customconfig_options/section_two/block3_link');
+
+$block4_image   = Mage::getStoreConfig('customconfig_options/section_two/block4_image');
+$block4_link    = Mage::getStoreConfig('customconfig_options/section_two/block4_link');
+
+$block5_heading = Mage::getStoreConfig('customconfig_options/section_two/block5_heading');
+$block5_link    = Mage::getStoreConfig('customconfig_options/section_two/block5_link');
+$block5_content = Mage::getStoreConfig('customconfig_options/section_two/block5_content');
+$block5_image   = Mage::getStoreConfig('customconfig_options/section_two/block5_image');
+
+$block6_image   = Mage::getStoreConfig('customconfig_options/section_two/block6_image');
+$block6_link    = Mage::getStoreConfig('customconfig_options/section_two/block6_link');
+
+$block7_heading = Mage::getStoreConfig('customconfig_options/section_two/block7_heading');
+$block7_link    = Mage::getStoreConfig('customconfig_options/section_two/block7_link');
+$block7_content = Mage::getStoreConfig('customconfig_options/section_two/block7_content');
+$block7_image   = Mage::getStoreConfig('customconfig_options/section_two/block7_image');
+
+$block8_image   = Mage::getStoreConfig('customconfig_options/section_two/block8_image');
+$block8_link    = Mage::getStoreConfig('customconfig_options/section_two/block8_link');
+
+$block9_image   = Mage::getStoreConfig('customconfig_options/section_two/block9_image');
+$block9_link    = Mage::getStoreConfig('customconfig_options/section_two/block9_link');
+
+$block10_heading = Mage::getStoreConfig('customconfig_options/section_two/block10_heading');
+$block10_link    = Mage::getStoreConfig('customconfig_options/section_two/block10_link');
+$block10_content = Mage::getStoreConfig('customconfig_options/section_two/block10_content');
+$block10_image   = Mage::getStoreConfig('customconfig_options/section_two/block10_image');
+
+$block11_image   = Mage::getStoreConfig('customconfig_options/section_two/block11_image');
+$block11_link    = Mage::getStoreConfig('customconfig_options/section_two/block11_link');
+
+$block12_image   = Mage::getStoreConfig('customconfig_options/section_two/block12_image');
+$block12_link    = Mage::getStoreConfig('customconfig_options/section_two/block12_link');
+
+$block13_heading = Mage::getStoreConfig('customconfig_options/section_two/block13_heading');
+$block13_link    = Mage::getStoreConfig('customconfig_options/section_two/block13_link');
+$block13_content = Mage::getStoreConfig('customconfig_options/section_two/block13_content');
+$block13_image   = Mage::getStoreConfig('customconfig_options/section_two/block13_image');
+
+
+$block14_heading = Mage::getStoreConfig('customconfig_options/section_two/block14_heading');
+$block14_link    = Mage::getStoreConfig('customconfig_options/section_two/block14_link');
+$block14_content = Mage::getStoreConfig('customconfig_options/section_two/block14_content');
+$block14_image   = Mage::getStoreConfig('customconfig_options/section_two/block14_image');
+
+$block15_image   = Mage::getStoreConfig('customconfig_options/section_two/block15_image');
+$block15_link    = Mage::getStoreConfig('customconfig_options/section_two/block15_link');
+
+// Video Section
+
+$image1 		 = Mage::getStoreConfig('customconfig_options/section_three/block14_image');
+$image1_heading  = Mage::getStoreConfig('customconfig_options/section_three/block14_heading');
+$image1_link     = Mage::getStoreConfig('customconfig_options/section_three/block14_link');
+$video1 		 = Mage::getStoreConfig('customconfig_options/section_three/block15_video');
+
+
+?>
+
+<div class="banner-block">
+	<div class="row banner-row">
+		<div id="promotions" class="home-block1">
+			<div class="container">
+
+				  <div class="col-md-4 block1">
+				  	<a href="<?php echo (!empty($block1_link))? $block1_link:"#"; ?>">
+				  		<img alt="" src="<?php echo (!empty($block1))? $upload_url.$block1:$media_url."skechers/every-step.jpg"; ?>">
+				  	</a>
+				  </div>
+		
+				  <div class="col-md-4 white-bg block2">
+				    <a href="<?php echo (!empty($block2_link))? $block2_link:"#"; ?>">
+				  		<img alt="" src="<?php echo (!empty($block2_image))? $upload_url.$block2_image:$media_url."uploads/home/bg_4.jpg"; ?>">
+				    	 <div class="vertical-middle banner-row-center bb5 women-arrival">
+				      		<h1 class="sub-title bb-title"><?php echo (!empty($block2_heading))? $block2_heading:"Women's new Arrivals"; ?></h1>
+                            <?php if(!empty($block2_content)): ?>
+                            <div class="horizontal_sep"></div>
+				      		<div class="secondary-font bb-sub-title"><?php echo (!empty($block2_content))? $block2_content:"Check out the hottest new look for woman"; ?></div>
+                             <?php endif; ?>
+                             <?php /* if(!empty($block2_image)): ?>
+                             <div class="promotion_img">
+                                 <img alt="" src="<?php if(!empty($block2_image)) echo $upload_url.$block2_image; ?>" />
+                             </div>
+                             <?php endif; */ ?>
+				  	  	</div> 
+				    </a>
+				  </div>
+		
+				  <div class="col-md-4 block3">
+				      <a href="<?php echo (!empty($block3_link))? $block3_link:"#"; ?>">
+				  		<img alt="" src="<?php echo (!empty($block3_image))? $upload_url.$block3_image:$media_url."skechers/for-women.jpg"; ?>">
+				  	  </a>
+				  </div>
+
+
+			</div>
+		</div>
+	</div>
+</div>
+
+
+<div class="banner-block">
+	<div class="row banner-row">
+		<div id="promotions" class="home-block2">
+			<div class="container">
+
+				  <div class="col-md-4 block4">
+				  	<a href="<?php echo (!empty($block4_link))? $block4_link:"#"; ?>">
+				  		<img alt="" src="<?php echo (!empty($block4_image))? $upload_url.$block4_image:$media_url."skechers/for-men.jpg"; ?>">
+				  	</a>
+				  </div>
+		
+				  <div class="col-md-4 white-bg block5">
+				    <a href="<?php echo (!empty($block5_link))? $block5_link:"#"; ?>">
+				  		<img alt="" src="<?php echo (!empty($block5_image))? $upload_url.$block5_image:$media_url."uploads/home/bg_4.jpg"; ?>">
+				    	
+                        <div class="vertical-middle banner-row-center bb5 men-arrival">
+				      		<h1 class="sub-title bb-title"><?php echo (!empty($block5_heading))? $block5_heading:""; ?></h1>
+                            <?php if(!empty($block5_content)): ?>
+                            <div class="horizontal_sep"></div>
+				      		<div class="secondary-font bb-sub-title"><?php echo (!empty($block5_content))? $block5_content:"Check out the hottest new look for woman"; ?></div>
+				      		<?php endif; ?>
+                             
+                             <?php /* if(!empty($block5_image)): ?>
+                             <div class="promotion_img">
+                                 <img alt="" src="<?php if(!empty($block5_image)) echo $upload_url.$block5_image; ?>" />
+                             </div>
+                             <?php endif; */ ?>
+				  	  	</div> 
+                        
+                        
+				    </a>
+				  </div>
+		
+				  <div class="col-md-4 block6">
+				      <a href="<?php echo (!empty($block6_link))? $block6_link:"#"; ?>">
+				  		<img alt="" src="<?php echo (!empty($block6_image))? $upload_url.$block6_image:$media_url."skechers/sports1.jpg"; ?>">
+				  	  </a>
+				  </div>
+
+
+			</div>
+		</div>
+	</div>
+</div>
+
+<div class="banner-block">
+	<div class="row banner-row">
+		<div id="promotions" class="home-block3">
+			<div class="container">
+
+				  <div class="col-md-4 white-bg block7">
+				  	<a href="<?php echo (!empty($block7_link))? $block7_link:"#"; ?>">
+				  		<img alt="" src="<?php echo (!empty($block7_image))? $upload_url.$block7_image:$media_url."uploads/home/bg_4.jpg"; ?>">
+                        
+                        <div class="vertical-middle banner-row-center bb5">
+				      		<h1 class="sub-title bb-title"><?php echo (!empty($block7_heading))? $block7_heading:""; ?></h1>
+				      		<?php if(!empty($block7_content)): ?>
+                            <div class="horizontal_sep"></div>
+				      		<div class="secondary-font bb-sub-title"><?php echo (!empty($block7_content))? $block7_content:""; ?></div>
+				      		<?php endif; ?>
+
+				  	  	</div> 
+                        
+				  	</a>
+				  </div>
+		
+				  <div class="col-md-8 block8">
+				      <a href="<?php echo (!empty($block8_link))? $block8_link:"#"; ?>">
+				  		<img alt="" src="<?php echo (!empty($block8_image))? $upload_url.$block8_image:$media_url."skechers/walk-run-jump.jpg"; ?>">
+				  	  </a>
+				  </div>
+
+
+			</div>
+		</div>
+	</div>
+</div>
+
+<div class="banner-block">
+	<div class="row banner-row">
+		<div id="promotions" class="home-block4">
+			<div class="container">
+
+				  <div class="col-sm-6">
+				  	<?php echo (!empty($video1))? $video1:''; ?>
+				  </div>
+		
+				  <div class="col-sm-6 video-img">
+				      <a href="<?php echo (!empty($image1_link))? $image1_link:"#"; ?>">
+
+				  		<img alt="" src="<?php echo (!empty($image1))? $upload_url.$image1:$media_url."skechers/skechers2.jpg"; ?>" />
+
+
+				  		<div class="vertical-middle banner-row-center bb5">
+				      		<h1 class="sub-title bb-title"><?php echo (!empty($image1_heading))? $image1_heading:""; ?></h1>
+				      		<?php if(!empty($image1_content)): ?>
+                            <div class="horizontal_sep"></div>
+				      		<div class="secondary-font bb-sub-title"><?php echo (!empty($image1_content))? $image_content:""; ?></div>
+				      		<?php endif; ?>
+
+				  	  	</div>                         
+				  	  </a>
+                      
+				  </div>
+
+
+			</div>
+		</div>
+	</div>
+</div>
+
+<div class="banner-block">
+	<div class="row banner-row">
+		<div id="promotions" class="home-block5">
+			<div class="container">
+
+				  <div class="col-md-4 block9">
+				  	<a href="<?php echo (!empty($block9_link))? $block9_link:"#"; ?>">
+				  		<img alt="" src="<?php echo (!empty($block9_image))? $upload_url.$block9_image:$media_url."skechers/kids.jpg"; ?>">
+				  	</a>
+				  </div>
+		
+				  <div class="col-md-4 white-bg block10">
+				    <a href="<?php echo (!empty($block10_link))? $block10_link:"#"; ?>">
+				  		<img alt="" src="<?php echo (!empty($block10_image))? $upload_url.$block10_image:$media_url."uploads/home/bg_4.jpg"; ?>">
+                        
+                        <div class="vertical-middle banner-row-center bb5">
+				      		<h1 class="sub-title bb-title"><?php echo (!empty($block10_heading))? $block10_heading:""; ?></h1>
+				      		<?php if(!empty($block10_content)): ?>
+                            <div class="horizontal_sep"></div>
+				      		<div class="secondary-font bb-sub-title"><?php echo (!empty($block10_content))? $block10_content:""; ?></div>
+				      		<?php endif; ?>
+				  	  	</div> 
+				    </a>
+				  </div>
+		
+				  <div class="col-md-4 block11">
+				      <a href="<?php echo (!empty($block11_link))? $block11_link:"#"; ?>">
+				  		<img alt="" src="<?php echo (!empty($block11_image))? $upload_url.$block11_image:$media_url."skechers/trooper.jpg"; ?>">
+				  	  </a>
+				  </div>
+
+
+			</div>
+		</div>
+	</div>
+</div>
+
+<div class="banner-block">
+	<div class="row banner-row">
+		<div id="promotions" class="home-block6">
+			<div class="container">
+
+				  <div class="col-md-8 left-padding-col block12">
+				  	<a href="<?php echo (!empty($block12_link))? $block12_link:"#"; ?>">
+				  		<img alt="" src="<?php echo (!empty($block12_image))? $upload_url.$block12_image:$media_url."skechers/skechers.jpg"; ?>">
+				  	</a>
+				  </div>
+		
+				  <div class="col-md-4 right-padding-col white-bg block13">
+				      <a href="<?php echo (!empty($block13_link))? $block13_link:"#"; ?>">
+				  		<img alt="" src="<?php echo (!empty($block13_image))? $upload_url.$block13_image:$media_url."uploads/home/bg_4.jpg"; ?>">
+                          
+                          <div class="vertical-middle banner-row-center bb5">
+				      		<h1 class="sub-title bb-title"><?php echo (!empty($block13_heading))? $block13_heading:""; ?></h1>
+				      		<?php if(!empty($block13_content)): ?>
+                            <div class="horizontal_sep"></div>
+				      		<div class="secondary-font bb-sub-title"><?php echo (!empty($block13_content))? $block13_content:""; ?></div>
+				      		<?php endif; ?>
+				  	  	</div> 
+				  	  </a>
+                      
+				  </div>
+
+
+			</div>
+		</div>
+	</div>
+</div>
+
+<div class="banner-block">
+	<div class="row banner-row">
+		<div id="promotions" class="home-block7">
+			<div class="container">
+
+				  <div class="col-md-4 white-bg block14">
+				      <a href="<?php echo (!empty($block14_link))? $block14_link:"#"; ?>">
+				  		<img alt="" src="<?php echo (!empty($block14_image))? $upload_url.$block14_image:$media_url."uploads/home/bg_4.jpg"; ?>">
+                          
+                          <div class="vertical-middle banner-row-center bb5">
+				      		<h1 class="sub-title bb-title"><?php echo (!empty($block14_heading))? $block14_heading:""; ?></h1>
+				      		<?php if(!empty($block14_content)): ?>
+                            	<div class="horizontal_sep"></div>
+				      			<div class="secondary-font bb-sub-title"><?php echo (!empty($block14_content))? $block14_content:""; ?></div>
+				      		<?php endif; ?>
+				  	  	</div> 
+				  	  </a>
+                      
+				  </div>
+
+				  <div class="col-md-8 block15">
+				  	<a href="<?php echo (!empty($block15_link))? $block15_link:"#"; ?>">
+				  		<img alt="" src="<?php echo (!empty($block15_image))? $upload_url.$block15_image:$media_url."skechers/skechers.jpg"; ?>">
+				  	</a>
+				  </div>
+		
+
+
+			</div>
+		</div>
+	</div>
+</div>
+
+<div class="banner-block">
+	<?php echo $this->getLayout()->createBlock('blog/menu_recents')->setTemplate('blog/home_block_custom.phtml')->toHtml(); ?>
+</div>
+
+
+<div class="banner-block social-container slider-blog-container">
+	<div class="more-title">
+        <h2 class="blog-custom-title social-custom-title secondary-font"><span>#Skechers Social Feeds</span></h2>
+    </div>
+	<div class="row banner-row">
+		<div class="col-md-6  facebook-feed">
+			  
+				<?php
+				$accesstoken_url = 'https://graph.facebook.com/oauth/access_token?client_id=1296002697095282&client_secret=d4e38d7a41dd0d54be1f896d55859936&grant_type=client_credentials';
+
+				$data = json_decode(file_get_contents($accesstoken_url));
+				//$return_data = explode("=", $data);
+				//print_r();
+				//$access_token= $return_data[0]->access_token;
+				$access_token= $data->access_token;
+
+				$fb_page_id 		= "202514763103306";
+				$profile_photo_src 	= "https://graph.facebook.com/{$fb_page_id}/picture?type=square";
+				$access_token 		= $access_token;
+				$fields 			= "id,message,picture,full_picture,link,name,description,created_time,from,object_id";
+				$limit 				= 6;
+
+				$json_link = "https://graph.facebook.com/{$fb_page_id}/posts?access_token={$access_token}&fields={$fields}&limit={$limit}";
+				$json = file_get_contents($json_link);
+				$obj = json_decode($json, true);
+				$fb_count = 1;
+				// echo "<pre>"; print_r($obj); exit();
+				
+				foreach ($obj['data'] as $value) {
+					if($fb_count <= 4):
+						if(!empty($value['link'])):
+							$image = (!empty($value['full_picture']))? $value['full_picture']:'https://graph.facebook.com/'.$value['object_id'].'/picture';
+
+							?>
+							<div class="col-md-6">
+							<div class="feed-box ov-box">
+								<div class="fb_pic">
+									<a target="_blank" href="<?php echo $value['link']; ?>"><img src="<?php echo $image; ?>" /></a>
+								</div>
+								<div class="fb_content">
+									<p>
+										<a target="_blank" href="<?php echo $value['link']; ?>">
+											Skechers
+											<span class="meta_date"><?php echo date("j F, Y", strtotime($value['created_time'])); ?></span>
+										</a>
+									</p>
+									
+								</div>
+
+								<div class="soc-icon">
+						        	<a target="_blank" href="<?php echo $value['link']; ?>"><img src="<?php echo $this->getSkinUrl('images/facebook.jpg',array('_secure'=>true)) ?>" /></a>
+						        </div>
+								<i class="clearfix"></i>
+								
+								<div class="overbox">
+									<a target="_blank" href="<?php echo $value['link']; ?>">
+		                                <div class="tagline overtext"><?php echo substr($value['message'], 0, 250); ?>...</div>
+		                            </a>
+		                       	</div>
+		                       	
+						    </div>
+						  	</div>
+						<?php
+							$fb_count++;
+							
+						endif;
+					else:
+						break;
+					endif;
+
+				}
+				?>nmmmmmmmmmmm
+		</div>
+
+		<div class="col-md-6 twitter-feed">
+
+		<?php
+			 $twitterUrl = Mage::getBaseUrl(Mage_Core_Model_Store::URL_TYPE_WEB).'tweet-php/TweetPHP.php';
+
+			$twitterData = file_get_contents($twitterUrl);
+			
+			$twitterData = json_decode($twitterData);
+		
+			$count = 0;
+			
+
+			foreach ($twitterData as $value) {
+
+				//print_r($value);
+
+				if($count >= 5){
+					break;
+				}
+
+				$text = substr($value->text, 0, 250).'...';
+				$image= $value->entities->media[0]->media_url_https;
+				$url  = 'https://twitter.com/SkechersIndia/status/'.$value->id.'/';
+				$screen_name = $value->user->screen_name;
+
+				if(!empty($image)):
+				?>
+				<div class="col-md-6">
+				<div class="feed-box ov-box">
+					<div class="fb_pic">
+						<a target="_blank" href="<?php echo $url; ?>">
+							<?php if(!empty($image)){ ?>
+									<img src="<?php echo $image; ?>" />
+							<?php }else{ ?>
+									<p><?php echo $text; ?></p>
+							<?php } ?>
+						</a>
+					</div>
+					<div class="fb_content">
+						<p>
+							<a target="_blank" href="<?php echo $url; ?>">
+								@<?php echo $screen_name; ?>
+								<span class="meta_date"><?php echo date("j F, Y", strtotime($value->created_at)); ?></span>
+							</a>
+						</p>
+					</div>
+
+					<div class="soc-icon">
+			        	<a target="_blank" href="<?php echo $url; ?>">
+			        		<img src="<?php echo $this->getSkinUrl('images/twitter.jpg',array('_secure'=>true)) ?>" />
+			        	</a>
+			        </div>
+					<i class="clearfix"></i>
+
+					<div class="overbox">
+						<a target="_blank" href="<?php echo $url; ?>">
+                            <div class="tagline overtext"><?php echo $text; ?></div>
+                        </a>
+                    </div>
+		        </div>
+			  	</div>
+				<?php
+					$count++;
+				endif;
+				
+				
+			}
+	
+
+		?>
+
+		</div>
+		
+	</div>
+</div>
